@@ -1,0 +1,30 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1843
+
+* About
+
+Ths "jman.vim" plugin is jman browser plugin for vim and jman user.
+Jman is "on-line manual pages for japanese".
+Jman is seen so that you may just use man.vim for man.
+
+* Need "jman" command.
+
+It need "jman" command!
+If you use FreeBSD, you can install jman program as root user,
+
+   cd /usr/ports/japanese/man && make install clean
+
+jman.vim use /usr/local/bin/jman.
+
+* Usage
+
+If you want to know ls(1), you can type following command.
+:Jman ls
+
+Want to know printf(3)
+:Jman 3 printf
+
+
+* see also
+
+- /usr/local/share/vim/vim*/ftplugin/man.vim
+
